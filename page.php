@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
-<h1>page</h1>
+<?php get_template_part ( 'template-parts/coversmall-template' ); ?>
+
+    <!-- Content start  -->
+        <?php the_content(); ?>
+    <!-- Content ends -->
 
 <?php get_footer(); ?>
